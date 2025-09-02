@@ -1,0 +1,9 @@
+langchain>=0.1.0
+langgraph>=0.0.40
+langchain-google-genai>=2.0.0
+python-dotenv>=1.0.0
+tavily-python>=0.3.0
+python-docx>=0.8.11
+reportlab>=4.0.4
+matplotlib>=3.0.0
+graphviz>=0.20.0
