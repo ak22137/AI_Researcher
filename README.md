@@ -1,6 +1,7 @@
 # AI Research Paper Creator
 
 An intelligent application that creates comprehensive research papers using LangChain, LangGraph, Tavily, and Google Gemini with a proper tool-based architecture.
+https://github.com/user-attachments/assets/8d43d83f-c0c4-4cb1-b015-037465653365
 
 ## 🏗️ Architecture
 
@@ -27,7 +28,11 @@ This application uses a sophisticated LangGraph workflow with the following comp
 - 🤖 **AI Writing**: Google Gemini for intelligent paper generation
 - 📊 **Workflow Management**: LangGraph for organized multi-step processing
 - 📄 **Document Creation Tools**: Automated Word and PDF generation
-- 💾 **Auto-save**: Documents saved in `doc/` folder
+- 
+
+
+
+💾 **Auto-save**: Documents saved in `doc/` folder
 - 📈 **Graph Visualization**: Visual representation of the workflow
 
 ## 🚀 Quick Start
