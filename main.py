@@ -1,9 +1,3 @@
-"""
-Simplified AI Research Paper Creator using LangChain and LangGraph
-================================================================
-
-This is a working implementation that avoids recursion issues
-"""
 
 import os
 import asyncio
