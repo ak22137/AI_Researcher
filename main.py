@@ -304,15 +304,15 @@ Please apply the requested changes to the paper content. Maintain the same acade
 
 Modified paper:"""
         
-        try:
+        
             # Generate the edited paper
-            response = self.llm.invoke([HumanMessage(content=editing_prompt)])
-            edited_content = response.content
+        response = self.llm.invoke([HumanMessage(content=editing_prompt)])
+        edited_content = response.content
             
             # Create new documents with the edited content
-            doc_results = create_documents(edited_content, topic)
+        doc_results = create_documents(edited_content, topic)
             
-            return {
+        return{
                 "topic": topic,
                 "document_path": doc_results['document_path'],
                 "pdf_path": doc_results['pdf_path'],
@@ -320,12 +320,7 @@ Modified paper:"""
                 "status": "completed"
             }
             
-        except Exception as e:
-            return {
-                "topic": topic,
-                "error": str(e),
-                "status": "failed"
-            }
+        
 
 
 def main():
