@@ -334,20 +334,10 @@ def main():
     print("🎓 AI Research Paper Creator")
     print("=" * 40)
     
-    # Check API keys
-    if not os.getenv("GOOGLE_API_KEY"):
-        print("❌ Please set GOOGLE_API_KEY in your .env file")
-        return
-    
-    if not os.getenv("TAVILY_API_KEY"):
-        print("⚠️ Warning: TAVILY_API_KEY not found. Research quality may be limited.")
-    
+  
     # Get user input
     topic = input("\nEnter your research topic: ").strip()
-    
-    if not topic:
-        print("❌ Please provide a valid research topic.")
-        return
+   
     
     # Create the agent and start processing immediately
     agent = SimpleResearchAgent()
